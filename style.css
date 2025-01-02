@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 60px 10px 60px;
+    padding: 10px 60px 10px 150px;
     background: #4caf50;
     color: white;
 }
@@ -28,6 +28,7 @@ body {
 }
 .navbar a {
     color: white;
+    font-weight: 700;
     text-decoration: none;
     font-size: 20px;
 }
@@ -43,19 +44,22 @@ align-items: center;
 padding: 60px 60px 20px 60px;
 }
 .trip-details h1{
-    font-size:4.5rem;
+    font-size:7rem;
+    margin-left: 100px;
 }
 .trip{
     color: #4caf50;
 }
 .trip-details p{
-    font-size: 1.5rem;
-    margin-top:-30px;
+    font-size: 1.7rem;
+    margin-top:-60px;
+    margin-left: 100px;
 }
 .trip-details-right img{
-    width: 600px;
+    width: 750px;
     height: auto;
     margin-top: -60px;
+    margin-right: 50px;
 }
 .dates {
     display: flex;
