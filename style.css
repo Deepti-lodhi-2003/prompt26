@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.trip-container {
+    width: 100vw;
+    max-width: 100vw;
+    background: white;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px 10px 60px;
+    background: #4caf50;
+    color: white;
+}
+.navbar {
+    display: flex;
+    gap: 40px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.trip-details {
+display: flex;
+justify-content: space-between;
+align-items: center; 
+padding: 60px 60px 20px 60px;
+}
+.trip-details h1{
+    font-size:4.5rem;
+}
+.trip{
+    color: #4caf50;
+}
+.trip-details p{
+    font-size: 1.5rem;
+    margin-top:-30px;
+}
+.trip-details-right img{
+    width: 600px;
+    height: auto;
+    margin-top: -60px;
+}
+.dates {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 30px 30px 30px;
+}
+.date {
+    text-align: center;
+    padding:15px 20px 15px 20px;
+    cursor: pointer;
+}
+.date.active, .date:hover {
+    background: #4caf50;
+    color: white;
+    border-radius: 50%;
+}
+.time-selection {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    background: #f1f1f1;
+}
+.time {
+    padding: 25px 35px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.time.active, .time:hover {
+    background: #4caf50;
+    color: white;
+}
+.boarding-info {
+    background-image: url(https://i.pinimg.com/236x/7e/9d/9f/7e9d9f086fdba06609ffce2737ac86ba.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+}
+.boarding-info h2{
+    font-size: 2.5rem;
+}
+.boarding-info p{
+    font-size: 1.3rem;
+    margin-top:-10px;
+}
+.ticket {
+    background: #e8f5e9;
+    padding: 60px;
+    border-radius: 20px;
+    margin: 40px;
+}
+.flight-info {
+    text-align: center;
+}
+.locations {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.locations h3{
+    font-size: 1.8rem;
+}
+.locations p, .flight-number{
+    font-size: 1.1rem;
+    margin-top:-10px;
+    color: #4caf50;
+    font-weight: 800;
+}
+.plane-icon {
+    font-size:10rem;
+}
+.flight-details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.help-button {
+    text-align: center;
+    background: #4caf50;
+    color: white;
+    padding: 25px;
+    margin: 60px;
+    border-radius: 35px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+@media (max-width: 1024px) {
+    .trip-container {
+        width: 100vw;
+    }
+    .header, .trip-details, .boarding-info, .ticket {
+        padding: 40px;
+    }
+    .time-selection, .dates {
+        padding: 30px 0;
+    }
+}
